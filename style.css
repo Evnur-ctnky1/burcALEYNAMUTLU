@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center center; 
+    place-items: center center;   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+input{
+    flex: 0 1 2rem;
+    width: 20rem;
+}
